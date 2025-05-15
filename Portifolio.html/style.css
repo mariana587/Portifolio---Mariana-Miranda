@@ -155,7 +155,7 @@ span{
     margin-top: 80px;
 }
 
-.secao01 div{
+.caixa {
     padding: 2rem;
     max-width: 600px;
     margin: 0 auto;
@@ -164,6 +164,8 @@ span{
     backdrop-filter: blur(10px);
     background-color: #9e2861;
 }
+
+
 
 .secao01 p{
     text-align: center;
@@ -258,10 +260,9 @@ span{
 .Contato-formulario {
     max-width: 600px;
     margin: 0 auto;
-    background: var(--cor-nova);
+    background: linear-gradient(45deg, #9e2861, #2b031d);
     backdrop-filter: blur(5px);
     padding: 2rem;
-    border: 1px solid var(--cor-brilho);
     border-radius: 16px;
 
 }
@@ -277,9 +278,57 @@ span{
     width: 100%;
     padding: 1rem;
     background: var(--cor-nba);
+    border-radius: 8px;
+    color: antiquewhite;
+}  
 
+
+.numero-telefone {
+        margin-bottom: 20px;
 }
 
+
+.campo-numb {
+    width: 100%;
+    padding: 1rem;
+    background: var(--cor-nba);
+    border-radius: 8px;
+    color: antiquewhite;
+}
+
+
+.mt-contact {
+    margin-bottom: 20px;
+}
+
+
+.campo-motivo {
+    width: 100%;
+    padding: 1rem;
+    background: var(--cor-nba);
+    border-radius: 8px;
+    color: antiquewhite;
+}
+
+
+
+.botao {
+    color: antiquewhite;
+    background-color: rgb(156, 0, 78);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.5 ease;
+}
+
+
+.botao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px #13040b; 
+}
 
 
 
