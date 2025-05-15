@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+span{
+    background: linear-gradient(
+        270deg,
+        #52052a,
+        #bb0469);
+    color: transparent;
+    background-clip: text;
+}
+
+
+body {
+    background-color: #2b031d;
+    color: aliceblue;
+}
+
+
+
+.h1 {
+    margin-top: 25rem;
+    text-align: center;
+}
+
+
+.agradecimento {
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 16px;
+    border: 1px solid var(--cor-brilho);
+    backdrop-filter: blur(10px);
+    background-color: #9e2861;
+    
+}
